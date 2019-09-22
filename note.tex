@@ -4,6 +4,7 @@
 \usepackage{pdfpages}
 \usepackage{ctex}
 \usepackage{amsmath}
+\usepackage{esint}
 \usepackage[version=4]{mhchem}
 \usepackage{graphicx}
 \usepackage{xcolor}
@@ -33,6 +34,9 @@
 \renewcommand {\thetable} {\thesection{}.\arabic{table}}
 \renewcommand {\thefigure} {\thesection{}.\arabic{figure}}
 
+\def\ooint{{\bigcirc}\kern-11.5pt{\int}\kern-6.5pt{\int}}
+\def\oooint{{\bigcirc}\kern-12.3pt{\int}\kern-7pt{\int}\kern-7pt{\int}}
+
 \title{Note of Fluid Dynamics}
 \author{Wang Yizhen}
 \date{\today}
@@ -51,7 +55,9 @@
 \setcounter{page}{1}
 
 \include{sections/Potential_Flow}
-\include{sections/Compressible_Flow}
+\include{sections/Compressible_Flow_1}
+\include{sections/Compressible_Flow_2}
+\include{sections/Math}
 
 
 

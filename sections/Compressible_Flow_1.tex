@@ -1,0 +1,140 @@
+\section{可压缩流体 - 基本公式}
+
+对于不可压缩流体而言，$\rho=constant$；
+可压缩流体则一般$\rho\neq constant$。
+
+\subsection{可压缩流体的重要关系式}
+
+\subsubsection{连续性方程（质量守恒）}
+
+对于一个控制体，有
+
+\begin{equation*}
+    [\mbox{控制体内的质量改变率}]+[\mbox{通过控制体边界的质量}]=0
+\end{equation*}
+
+利用梯度算子，可以写作
+
+\begin{equation*}
+    \frac{\partial \rho}{\partial t}+\nabla(\rho \boldsymbol{V})=0
+\end{equation*}
+
+借助高斯散度定理，对等式两边积分，有
+
+\begin{equation*}
+    \frac{\partial}{\partial t} \iiint_{\Omega} \rho d \Omega+\oiint_{S} \rho \boldsymbol{V} \cdot d \boldsymbol{S}=0
+\end{equation*}
+
+\subsection{动量守恒}
+
+考虑一个控制体的动量，
+
+\begin{equation*}
+    [\mbox{控制体动量的变化率}]=[\mbox{对控制体施加的外力}]
+\end{equation*}
+
+对控制体施加的合外力可以视为三个部分的和，压力、体积力和粘滞力的共同效果导致了控制体动量的改变。在三个方向的分量可以表示为：
+
+\begin{align*}
+    \frac{\partial(\rho u)}{\partial t}+\nabla (\rho u \boldsymbol{V})&=-\frac{\partial p}{\partial x}+\rho f_{x}+\left(F_{x}\right)_{viscous}\\
+    \frac{\partial(\rho v)}{\partial t}+\nabla (\rho v \boldsymbol{V})&=-\frac{\partial p}{\partial y}+\rho f_{y}+\left(F_{y}\right)_{viscous}\\
+    \frac{\partial(\rho w)}{\partial t}+\nabla (\rho w \boldsymbol{V})&=-\frac{\partial p}{\partial z}+\rho f_{z}+\left(F_{z}\right)_{visous}
+\end{align*}
+
+再次对等式两边积分，并利用高斯散度定理可得
+
+\begin{equation*}
+    \frac{\partial}{\partial t} \iiint_{\Omega} \rho \boldsymbol{V} d \Omega+\oiint_{S}(\rho \boldsymbol{V} \cdot \boldsymbol{d} \boldsymbol{S}) \boldsymbol{V}=-\oiint_{S} \rho d \boldsymbol{S}+\iiint_{\Omega} \rho f d \Omega+\boldsymbol{F}_{viscous}
+\end{equation*}
+
+左侧第一项可以视为控制体内动量的变化量，第二项则是通过控制体边界净增加/减少的动量；等式右侧第一项是作用在控制体上的压力之和（负号由于压力与单位面积向量的方向相反），第二项是控制体体积力之和，第三项则是总的粘滞力。
+
+\subsubsection{能量守恒}
+
+从热力学第一定律，我们有
+
+\begin{equation*}
+    \Delta E=Q+W
+\end{equation*}
+
+即
+
+\begin{equation*}
+    [\mbox{控制体内的能量变化率}]=[\mbox{传递给控制提的热功率}]+[\mbox{外界对控制体做功的功率}]
+\end{equation*}
+
+微分形式可以写为
+
+\begin{equation*}
+    \frac{\partial}{\partial t}\left[\rho\left(e+\frac{V^{2}}{2}\right)\right]+\nabla \cdot\left[\rho\left(e+\frac{V^{2}}{2}\right) \boldsymbol{V}\right]=\rho \dot{q}+\dot{\boldsymbol{Q}}_{\text {viscous}}^{\prime}-\nabla \cdot(p \boldsymbol{V})+\rho(\boldsymbol{f}, \boldsymbol{V})+\boldsymbol{W}_{\text {viscous}}^{\prime}
+\end{equation*}
+
+积分形式：
+
+\begin{equation*}
+    \frac{\partial}{\partial t} \iiint_{\Omega}\left[\rho\left(e+\frac{V^{2}}{2}\right)\right] d \Omega+\iint_{S} \rho \rho\left(e+\frac{V^{2}}{2}\right) \boldsymbol{V} \cdot d S=\iiint_{\Omega} \rho \dot{q} d \Omega-\iint_{S}(p \boldsymbol{V}) \cdot d \boldsymbol{S}+\iiint_{\Omega} \rho(f\cdot V) d \Omega+\dot{\boldsymbol{Q}}_{viscous}+\dot{\boldsymbol{W}}_{viscous}
+\end{equation*}
+
+\subsubsection{其他可用关系式}
+
+理想气体状态方程
+
+\begin{equation*}
+    p=\rho RT
+\end{equation*}
+
+其中$R$为气体常数，
+
+\begin{equation*}
+    R=\frac{R_u}{MW}
+\end{equation*}
+
+内能关系：
+
+\begin{equation*}
+    e=c_vT
+\end{equation*}
+
+焓关系：
+
+\begin{equation*}
+    h=c_pT
+\end{equation*}
+
+绝热指数与热容关系：
+
+\begin{gather*}
+    \gamma=\frac{c_p}{c_v}\\
+    c_p-c_v=R
+\end{gather*}
+
+绝热（等熵）过程：
+
+\begin{equation*}
+    \frac{p}{\rho^\gamma}=\mbox{const}
+\end{equation*}
+
+
+\subsection{声速}
+
+\begin{equation*}
+    a^{2}=\frac{\gamma p}{\rho}=\gamma R T
+\end{equation*}
+
+由此可定义马赫数
+
+\begin{equation*}
+    M=\frac{V}{a}=\mbox{Mach number}
+\end{equation*}
+
+类似地，可以定义水中的波速
+
+\begin{equation*}
+    c=\sqrt{gy}
+\end{equation*}
+
+式中，$g$为重力加速度，$y$为水深。同样也可定义Froude数，
+
+\begin{equation*}
+    \mbox { Froude number }=F=\frac{V}{\sqrt{g y}}
+\end{equation*}

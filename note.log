@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.4.10)  18 SEP 2019 19:32
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.4.10)  22 SEP 2019 18:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -533,6 +533,9 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 \mathdisplay@stack=\toks24
 LaTeX Info: Redefining \[ on input line 2844.
 LaTeX Info: Redefining \] on input line 2845.
+) (c:/texlive/2018/texmf-dist/tex/latex/esint/esint.sty
+Package: esint 
+\symlargesymbolsA=\mathgroup4
 ) (c:/texlive/2018/texmf-dist/tex/latex/mhchem/mhchem.sty
 Package: mhchem 2018/06/22 v4.08 for typesetting chemical formulae
  (c:/texlive/2018/texmf-dist/tex/latex/chemgreek/chemgreek.sty
@@ -630,25 +633,25 @@ File: lstlang1.sty 2018/09/02 1.7 listings language file
 Package: xeCJK-listings 2018/04/30 v3.7.1 xeCJK patch file for listings
 \l__xeCJK_listings_max_char_int=\count309
 \l__xeCJK_listings_flag_int=\count310
-) (./note.aux (./sections/intro.aux) (./sections/Potential_Flow.aux) (./sections/Compressible_Flow.aux))
+) (./note.aux (./sections/intro.aux) (./sections/Potential_Flow.aux) (./sections/Compressible_Flow.aux) (./sections/Math.aux))
 \openout1 = `note.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -692,75 +695,83 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 99.
 ) ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 40.
+LaTeX Info: Redefining \selectfont on input line 44.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
-\symlegacymaths=\mathgroup4
+\symlegacymaths=\mathgroup5
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 40.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 40.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 40.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 40.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 40.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 40.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 40.
-LaTeX Font Info:    Redeclaring math accent \check on input line 40.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 40.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 40.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 40.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 40.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 40.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 40.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 40.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 40.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 40.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 40.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 40.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 40.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 40.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 40.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 40.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 40.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 44.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 44.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 44.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 44.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 44.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 44.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 44.
+LaTeX Font Info:    Redeclaring math accent \check on input line 44.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 44.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 44.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 44.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 44.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 40.
+(Font)              `operators' in the math version `normal' on input line 44.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 40.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 44.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 40.
+(Font)              `operators' in the math version `bold' on input line 44.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 40.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 44.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 40.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 40.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 40.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 40.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 40.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 44.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/bx/n on input line 40.
+(Font)                  TU/lmr/m/n --> TU/lmr/bx/n on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/bx/it on input line 40.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/bx/it on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 40.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 40.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 44.
 
-Package chemgreek Info: Activating mapping `fontspec' on line 40.
+Package chemgreek Info: Activating mapping `fontspec' on line 44.
 
 \c@lstlisting=\count311
- [1
+LaTeX Font Info:    Try loading font information for U+esint on input line 46.
+ (c:/texlive/2018/texmf-dist/tex/latex/esint/uesint.fd
+File: uesint.fd 
+) [1
 
 ]
 \openout2 = `sections/intro.aux'.
 
  (./sections/intro.tex) [2
 
-] (./note.toc)
+] (./note.toc
+
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <10.53937> not available
+(Font)              size <10.95> substituted on input line 3.
+
+)
 \tf@toc=\write3
 \openout3 = `note.toc'.
 
@@ -769,17 +780,33 @@ Package chemgreek Info: Activating mapping `fontspec' on line 40.
 ]
 \openout2 = `sections/Potential_Flow.aux'.
 
- (./sections/Potential_Flow.tex)
+ (./sections/Potential_Flow.tex) [1
+
+]
 \openout2 = `sections/Compressible_Flow.aux'.
 
- (./sections/Compressible_Flow.tex) (./note.aux (./sections/intro.aux) (./sections/Potential_Flow.aux) (./sections/Compressible_Flow.aux)) ) 
-Here is how much of TeX's memory you used:
- 20602 strings out of 494761
- 439222 string characters out of 6171306
- 729663 words of memory out of 5000000
- 24287 multiletter control sequences out of 15000+600000
- 536030 words of font info for 59 fonts, out of 8000000 for 9000
- 36 hyphenation exceptions out of 8191
- 54i,6n,72p,361b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
+ (./sections/Compressible_Flow.tex [2
 
-Output written on note.pdf (3 pages).
+
+]) [3]
+\openout2 = `sections/Math.aux'.
+
+ (./sections/Math.tex) [4
+
+
+] (./note.aux (./sections/intro.aux) (./sections/Potential_Flow.aux) (./sections/Compressible_Flow.aux) (./sections/Math.aux))
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.41063pt have occurred.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 20823 strings out of 494761
+ 448817 string characters out of 6171306
+ 737743 words of memory out of 5000000
+ 24473 multiletter control sequences out of 15000+600000
+ 540839 words of font info for 87 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 54i,12n,72p,435b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on note.pdf (7 pages).
