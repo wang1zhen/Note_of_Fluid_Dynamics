@@ -1,8 +1,26 @@
 \contentsline {section}{\numberline {1}不可压缩流体}{1}% 
-\contentsline {section}{\numberline {2}可压缩流体}{2}% 
+\contentsline {section}{\numberline {2}可压缩流体 - 基本公式}{2}% 
 \contentsline {subsection}{\numberline {2.1}可压缩流体的重要关系式}{2}% 
 \contentsline {subsubsection}{\numberline {2.1.1}连续性方程（质量守恒）}{2}% 
 \contentsline {subsection}{\numberline {2.2}动量守恒}{2}% 
 \contentsline {subsubsection}{\numberline {2.2.1}能量守恒}{2}% 
-\contentsline {section}{\numberline {3}数学}{4}% 
-\contentsline {subsection}{\numberline {3.1}高斯散度定理}{4}% 
+\contentsline {subsubsection}{\numberline {2.2.2}其他可用关系式}{3}% 
+\contentsline {subsection}{\numberline {2.3}声速}{3}% 
+\contentsline {section}{\numberline {3}等熵可压缩流}{4}% 
+\contentsline {subsection}{\numberline {3.1}可压缩流体的欧拉方程}{4}% 
+\contentsline {subsection}{\numberline {3.2}温度、压力与密度关系}{4}% 
+\contentsline {subsection}{\numberline {3.3}二维喷管中的流体}{4}% 
+\contentsline {subsection}{\numberline {3.4}喷管中的流体}{4}% 
+\contentsline {subsection}{\numberline {3.5}喷管的截面积}{5}% 
+\contentsline {section}{\numberline {4}激波与扩展波}{6}% 
+\contentsline {subsection}{\numberline {4.1}激波}{6}% 
+\contentsline {subsection}{\numberline {4.2}导管内的熵变}{6}% 
+\contentsline {subsection}{\numberline {4.3}正向激波内的马赫数变化}{7}% 
+\contentsline {subsection}{\numberline {4.4}弱激波下的熵增}{8}% 
+\contentsline {subsection}{\numberline {4.5}滞止压力在激波中的变化}{8}% 
+\contentsline {subsection}{\numberline {4.6}二维喷管中的流体}{8}% 
+\contentsline {subsection}{\numberline {4.7}斜激波}{10}% 
+\contentsline {subsection}{\numberline {4.8}马赫角}{11}% 
+\contentsline {subsection}{\numberline {4.9}偏折角$\theta $与激波倾角$\beta $间的关系}{11}% 
+\contentsline {section}{\numberline {5}数学}{13}% 
+\contentsline {subsection}{\numberline {5.1}高斯散度定理}{13}% 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.4.10)  22 SEP 2019 18:55
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.4.10)  3 OCT 2019 18:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -633,7 +633,7 @@ File: lstlang1.sty 2018/09/02 1.7 listings language file
 Package: xeCJK-listings 2018/04/30 v3.7.1 xeCJK patch file for listings
 \l__xeCJK_listings_max_char_int=\count309
 \l__xeCJK_listings_flag_int=\count310
-) (./note.aux (./sections/intro.aux) (./sections/Potential_Flow.aux) (./sections/Compressible_Flow.aux) (./sections/Math.aux))
+) (./note.aux (./sections/intro.aux) (./sections/Potential_Flow.aux) (./sections/Compressible_Flow_1.aux) (./sections/Compressible_Flow_2.aux) (./sections/Compressible_Flow_3.aux) (./sections/Math.aux))
 \openout1 = `note.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
@@ -783,30 +783,61 @@ LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <10.53937> not available
  (./sections/Potential_Flow.tex) [1
 
 ]
-\openout2 = `sections/Compressible_Flow.aux'.
+\openout2 = `sections/Compressible_Flow_1.aux'.
 
- (./sections/Compressible_Flow.tex [2
+ (./sections/Compressible_Flow_1.tex [2
 
 
 ]) [3]
+\openout2 = `sections/Compressible_Flow_2.aux'.
+
+ (./sections/Compressible_Flow_2.tex [4
+
+
+]) [5]
+\openout2 = `sections/Compressible_Flow_3.aux'.
+
+ (./sections/Compressible_Flow_3.tex
+File: figures/1.png Graphic file (type bmp)
+<figures/1.png>
+ [6
+
+
+]
+File: figures/2.png Graphic file (type bmp)
+<figures/2.png>
+ [7]
+File: figures/3.png Graphic file (type bmp)
+<figures/3.png>
+ [8] [9]
+File: figures/4.png Graphic file (type bmp)
+<figures/4.png>
+File: figures/5.png Graphic file (type bmp)
+<figures/5.png>
+File: figures/6.png Graphic file (type bmp)
+<figures/6.png>
+ [10]
+File: figures/7.png Graphic file (type bmp)
+<figures/7.png>
+ [11]) [12]
 \openout2 = `sections/Math.aux'.
 
- (./sections/Math.tex) [4
+ (./sections/Math.tex) [13
 
 
-] (./note.aux (./sections/intro.aux) (./sections/Potential_Flow.aux) (./sections/Compressible_Flow.aux) (./sections/Math.aux))
+] (./note.aux (./sections/intro.aux) (./sections/Potential_Flow.aux) (./sections/Compressible_Flow_1.aux) (./sections/Compressible_Flow_2.aux) (./sections/Compressible_Flow_3.aux) (./sections/Math.aux))
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.41063pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 20823 strings out of 494761
- 448817 string characters out of 6171306
- 737743 words of memory out of 5000000
- 24473 multiletter control sequences out of 15000+600000
+ 20913 strings out of 494761
+ 452227 string characters out of 6171306
+ 740743 words of memory out of 5000000
+ 24539 multiletter control sequences out of 15000+600000
  540839 words of font info for 87 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 54i,12n,72p,435b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,12n,72p,439b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on note.pdf (7 pages).
+Output written on note.pdf (16 pages).

@@ -1,1 +1,109 @@
 \section{等熵可压缩流}
+
+\subsection{可压缩流体的欧拉方程}
+
+\begin{gather*}
+    \frac{a^{2}}{\gamma-1}+\frac{V^{2}}{2}=\mathrm{const}\\
+    \frac{p}{\rho} \frac{\gamma}{\gamma-1}+\frac{1}{2} V^{2}=\text { const }\\ 
+    \frac{1}{2} V^{2}+T c_{p}=\text { const }
+\end{gather*}
+
+滞止温度与滞止焓：
+
+\begin{align*}
+    \frac{1}{2} V^{2}+T c_{p}&=T_{0} c_{p}\\ 
+    \frac{1}{2} V^{2}+h&=h_{0}
+\end{align*}
+
+\subsection{温度、压力与密度关系}
+
+\begin{gather*}
+    \frac{T_{0}}{T}=1+\frac{\gamma-1}{2} M^{2}\\ 
+    \frac{p_{0}}{p}=\left(1+\frac{\gamma-1}{2} M^{2}\right)^{\frac{\gamma}{\gamma-1}}\\ 
+    \frac{\rho_{0}}{\rho}=\left(1+\frac{\gamma-1}{2} M^{2}\right)^{\frac{1}{\gamma-1}}
+\end{gather*}
+
+\subsection{二维喷管中的流体}
+
+考虑连续性方程：
+
+\begin{gather*}
+    \rho A V=(\rho+d \rho)(A+d A)(V+d V)\\ 
+    0=\frac{d \rho}{\rho}+\frac{d A}{A}+\frac{d V}{V}
+\end{gather*}
+
+考虑动量守恒（牛顿第二定律）：
+
+\begin{equation*}
+    \frac{d p}{\rho}+V d V=0
+\end{equation*}
+
+\subsection{喷管中的流体}
+
+考虑
+
+\begin{equation*}
+    \frac{d p}{\rho}+V d V=0
+\end{equation*}
+
+代入
+
+\begin{align*}
+    a^2&=\frac{dp}{d\rho}\\ 
+    M^2&=\frac{V^2}{a^2}
+\end{align*}
+
+可以得到
+
+\begin{equation*}
+    \frac{d \rho}{\rho}=-M^{2} \frac{d V}{V}
+\end{equation*}
+
+再把此式代回
+
+\begin{equation*}
+    \frac{d \rho}{\rho}+\frac{d A}{A}+\frac{d V}{V}=0
+\end{equation*}
+
+不难得到
+
+\begin{equation*}
+    \frac{d A}{A}=\left(M^{2}-1\right) \frac{d V}{V}
+\end{equation*}
+
+上式揭示了喷管截面积、马赫数与流体速度间的关系。$M=0$时，流体可以视为不可压缩流体；$0<M<1$时为亚音速流，渐缩喷管加速流体，渐扩喷管减速流体；$M=1$时为音速流，喷管截面积在此时取到最值；$M>1$时为超音速流，渐缩喷管减速流体，渐扩喷管加速流体。
+
+为了得到超音速流体，需要使用缩放喷管（拉伐尔喷管）。
+
+\subsection{喷管的截面积}
+
+利用先前推导的温度、压力、密度关系，
+
+\begin{align*}
+    \frac{T_{0}}{T}&=1+\frac{\gamma-1}{2} M^{2}\\ 
+    \frac{p_{0}}{p}&=\left(1+\frac{\gamma-1}{2} M^{2}\right)^{\frac{\gamma}{\gamma-1}}\\ 
+    \frac{\rho_{0}}{\rho}&=\left(1+\frac{\gamma-1}{2} M^{2}\right)^{\frac{1}{\gamma-1}}
+\end{align*}
+
+在喉部位置，马赫数$M=1$，并且考虑空气的绝热指数$\gamma=1.4$，可以得到喉部的状态：
+
+\begin{align*}
+\frac{T^{*}}{T_{0}}&=0.833 \\ 
+\frac{p^{*}}{p_{0}}&=0.528 \\ 
+\frac{\rho^{*}}{\rho_{0}}&=0.634
+\end{align*}
+
+另一方面，利用连续性方程，统一代换为马赫数之比，即可得到任意截面面积与喉部截面积之比：
+
+\begin{equation*}
+    \frac{A}{A^{*}}=\left(\frac{1}{M}\right)\left(\frac{2}{(\gamma+1)}\left[1+\left(\frac{\gamma-1}{2}\right) M^{2}\right]\right)^{\frac{\gamma+1}{2(\gamma-1)}}
+\end{equation*}
+
+其中$A^*$为对应$M^*=1$的喉部截面积。
+
+类似的，利用可压缩流体的伯努利方程（取参考点为滞止点），附加上绝热关系，可以得到，当地速度只与当地压力有关：
+
+\begin{equation*}
+    V=\sqrt{\frac{2 \gamma}{\gamma-1} \frac{p_{0}}{\rho_{0}}\left(1-\left(\frac{p}{p_{0}}\right)^{\frac{\gamma-1}{\gamma}}\right)}
+\end{equation*}
+
