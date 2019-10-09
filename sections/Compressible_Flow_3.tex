@@ -1,6 +1,6 @@
-\section{激波与扩展波}
+\section{激波}
 
-\subsection{激波}
+\subsection{一维导管内的激波}
 
 考虑如图\ref{1}所示的导管，可以列写出相关的质量、动量、能量守恒方程式：
 
@@ -300,3 +300,159 @@
 
 \subsection{马赫线与其性质}
 
+通过马赫线，如果气体被压缩，则马赫数减小，马赫角增加；若通过马赫线，气体膨胀，则马赫数增加，马赫角减小。
+
+\begin{enumerate}
+    \item 凹角
+
+    \begin{figure}[!ht]
+        \centering
+        \includegraphics[width=8cm]{figures/10.png}
+        \caption{凹角马赫线}
+        \label{10}
+    \end{figure}
+
+    如图\ref{10}所示，凹角处存在一系列压缩的马赫线，$M_1>M_2>M_3$，$\mu_1<\mu_2<\mu_3$。通过马赫线的流体可以视为等熵流。同时如图\ref{11}，这一系列的马赫线会交汇于一点，此时，激波生成了。同时，在这个交汇点的后方，也存在一个涡流层，涡流层上下流体的速度是不连续的，但压力仍然是连续的。在涡流层和固体边界之间的流体可以视为等熵流提，他们只经过了一系列马赫线；在涡流层上方的流体通过了激波间断线，因为通过了斜激波，存在熵变，因此不可逆，等熵关系不再保持。
+
+    \begin{figure}[!ht]
+        \centering
+        \includegraphics[width=8cm]{figures/11.png}
+        \caption{凹角处的激波}
+        \label{11}
+    \end{figure}
+
+    \begin{align*}
+        \frac{T_{0}}{T}&=1+\frac{\gamma-1}{2} M^{2}\quad\mbox{对所有流体适用}\\ 
+        \frac{p_{0}}{p}&=\left(1+\frac{\gamma-1}{2} M^{2}\right)^{\frac{\gamma}{\gamma-1}}\quad\mbox{仅对绝热流体适用}\\ 
+        \frac{\rho_{0}}{\rho}=\left(1+\frac{\gamma-1}{2} M^{2}\right)^{\frac{1}{\gamma-1}}\quad\mbox{仅对绝热流体适用}
+    \end{align*}
+
+    \item 凸角
+    
+    对于凸角，同样存在一系列扩张马赫线，如图\ref{12}所示，$M_1<M_2<M_3$，$\mu_1>\mu_2>\mu_3$。但是这一系列的扩张马赫线并不会汇聚于一点。在凸角处，这一现象被称为Prantdl-Meyer膨胀扇，如图\ref{13}。在这种条件下，整个流体都是等熵的。
+
+
+    \begin{figure}[!ht]
+        \centering
+        \includegraphics[width=8cm]{figures/12.png}
+        \caption{凸角马赫线}
+        \label{12}
+    \end{figure}
+
+    
+    \begin{figure}[!ht]
+        \centering
+        \includegraphics[width=8cm]{figures/13.png}
+        \caption{凸角马赫线}
+        \label{13}
+    \end{figure}
+\end{enumerate}
+
+\subsection{马赫线分析}
+
+考虑如图\ref{14}所示的凹角，对控制体分析：
+
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=\linewidth]{figures/14.png}
+    \caption{马赫线分析}
+    \label{14}
+\end{figure}
+
+质量守恒
+
+\begin{align*}
+    \rho v_n&=(\rho+\delta\rho)(v_n+\delta v_n)\\ 
+    0&=v_n\delta\rho+\rho\delta v_n
+\end{align*}
+
+切向方向的动量守恒
+
+\begin{align*}
+    \rho v_{n} v_{t}&=(\rho+\delta \rho)\left(v_{n}+\delta v_{n}\right)\left(v_{t}+\delta v_{t}\right)\\ 
+    \delta v_{t}&=0
+\end{align*}
+
+也可以写作
+
+\begin{equation*}
+    V\cos\mu=(V+\delta V)\cos(\mu-\delta\theta)
+\end{equation*}
+
+利用和角公式，并近似$\sin\delta\theta\rightarrow\delta\theta$，$\cos\delta\theta\rightarrow1$，可以得到
+
+\begin{equation*}
+    V \cos \mu=(V+\delta V)(\cos \mu+\delta \theta \sin \mu)
+\end{equation*}
+
+展开并忽略高阶小量，可以得到
+
+\begin{align*}
+    \delta V \cot \mu&=-V \delta \theta\\ 
+    \delta \theta&=\mp \frac{\delta V}{V} \sqrt{M^{2}-1}
+\end{align*}
+
+式中的$\mp$代表，对于正的马赫线，此处取负号；对于负的马赫线，此处取正号。
+
+为了将$\theta$与压力变化$\delta p$联系起来，利用欧拉方程：
+
+\begin{equation*}
+    \int \frac{d p}{\rho}+\frac{V^{2}}{2}=\mathrm{const}
+\end{equation*}
+
+微分得到
+
+\begin{equation*}
+    \frac{\delta p}{\rho}=-V \delta V
+\end{equation*}
+
+代回前式可得
+
+\begin{align*}
+    \delta \theta&=\pm \frac{\delta p}{\rho V^{2}} \sqrt{M^{2}-1}\\ 
+    &=\pm \frac{\delta p}{\gamma p M^{2}} \sqrt{M^{2}-1}\\ 
+    &=\mp \frac{\delta M\left(M^{2}-1\right)^{\frac{1}{2}}}{M\left(1+\frac{M^{2}(\gamma-1)}{2}\right)}
+\end{align*}
+
+对于上式进行积分，
+
+\begin{align*}
+    \theta&=\mp \int \frac{d M\left(M^{2}-1\right)^{\frac{1}{2}}}{M\left(1+\frac{M^{2}(\gamma-1)}{2}\right)}\\ 
+    &=\mp \omega(M)+\theta_{0}
+\end{align*}
+
+其中$\omega(M)$被称为Prandtl角，为积分
+
+\begin{equation*}
+    \omega(M)=[\sqrt{\frac{\gamma+1}{\gamma-1}} \arctan \sqrt{\frac{\gamma-1}{\gamma+1}\left(M^{2}-1\right)}-\arctan \sqrt{M^{2}-1}]
+\end{equation*}
+
+也可以通过查表得到。
+
+因此，我们有结论
+
+\begin{equation*}
+    \theta\pm\omega(M)=\theta_0=\mathrm{const}
+\end{equation*}
+
+对于流体的全过程成立。
+
+马赫线与偏转角度的正负定义如图\ref{15}所示。注意到，$\mu=\arcsin(1/M)$，始终是正值。
+
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=\linewidth]{figures/15.png}
+    \caption{马赫线与偏转角度的正负定义}
+    \label{15}
+\end{figure}
+
+从而，
+
+\begin{align*}
+    V \cos \mu&=(V+\delta V) \cos (\mu-\delta \theta)\quad\mbox{正马赫线}\\ 
+    V \cos \mu&=(V+\delta V) \cos (\mu+\delta \theta)\quad\mbox{负马赫线}
+\end{align*}
+
+\begin{equation*}
+    \delta \theta=\mp \frac{\sqrt{M^{2}-1}}{M\left(1+\frac{\gamma-1}{2} M^{2}\right)} \delta M
+\end{equation*}

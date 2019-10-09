@@ -12,8 +12,8 @@
 \contentsline {subsection}{\numberline {3.3}二维喷管中的流体}{4}% 
 \contentsline {subsection}{\numberline {3.4}喷管中的流体}{4}% 
 \contentsline {subsection}{\numberline {3.5}喷管的截面积}{5}% 
-\contentsline {section}{\numberline {4}激波与扩展波}{6}% 
-\contentsline {subsection}{\numberline {4.1}激波}{6}% 
+\contentsline {section}{\numberline {4}激波}{6}% 
+\contentsline {subsection}{\numberline {4.1}一维导管内的激波}{6}% 
 \contentsline {subsection}{\numberline {4.2}导管内的熵变}{6}% 
 \contentsline {subsection}{\numberline {4.3}正向激波内的马赫数变化}{7}% 
 \contentsline {subsection}{\numberline {4.4}弱激波下的熵增}{8}% 
@@ -22,5 +22,11 @@
 \contentsline {subsection}{\numberline {4.7}斜激波}{10}% 
 \contentsline {subsection}{\numberline {4.8}马赫角}{11}% 
 \contentsline {subsection}{\numberline {4.9}偏折角$\theta $与激波倾角$\beta $间的关系}{11}% 
-\contentsline {section}{\numberline {5}数学}{13}% 
-\contentsline {subsection}{\numberline {5.1}高斯散度定理}{13}% 
+\contentsline {subsection}{\numberline {4.10}斜激波的特殊解}{12}% 
+\contentsline {subsection}{\numberline {4.11}马赫线与其性质}{13}% 
+\contentsline {subsection}{\numberline {4.12}马赫线分析}{14}% 
+\contentsline {section}{\numberline {5}可压缩流体的空气动力学}{18}% 
+\contentsline {subsection}{\numberline {5.1}激波-膨胀波方法}{18}% 
+\contentsline {subsection}{\numberline {5.2}Ackeret理论}{18}% 
+\contentsline {section}{\numberline {6}数学}{23}% 
+\contentsline {subsection}{\numberline {6.1}高斯散度定理}{23}% 
