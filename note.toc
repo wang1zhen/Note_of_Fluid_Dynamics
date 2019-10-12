@@ -28,5 +28,12 @@
 \contentsline {section}{\numberline {5}可压缩流体的空气动力学}{18}% 
 \contentsline {subsection}{\numberline {5.1}激波-膨胀波方法}{18}% 
 \contentsline {subsection}{\numberline {5.2}Ackeret理论}{18}% 
-\contentsline {section}{\numberline {6}数学}{23}% 
-\contentsline {subsection}{\numberline {6.1}高斯散度定理}{23}% 
+\contentsline {section}{\numberline {6}兴波阻力}{23}% 
+\contentsline {subsection}{\numberline {6.1}音障}{23}% 
+\contentsline {subsection}{\numberline {6.2}延迟阻力发散与降低兴波阻力的方法}{24}% 
+\contentsline {section}{\numberline {7}管道中的有摩擦绝热流}{25}% 
+\contentsline {section}{\numberline {8}Prandtl关系}{27}% 
+\contentsline {subsection}{\numberline {8.1}正激波推导的另一种方法}{27}% 
+\contentsline {subsection}{\numberline {8.2}$M$与$M^*$的关系}{28}% 
+\contentsline {section}{\numberline {9}数学}{29}% 
+\contentsline {subsection}{\numberline {9.1}高斯散度定理}{29}% 

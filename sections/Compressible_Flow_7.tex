@@ -1,0 +1,87 @@
+\section{Prandtl关系}
+
+再次考虑一维管道内的超音速流动问题。
+
+\begin{align*}
+    \rho_{1} u_{1}&=\rho_{2} u_{2} &\mbox{连续性方程}\\ 
+    p_{1}+\rho_{1} u_{1}^{2}&=p_{2}+\rho_{1} u_{2}^{2}&\mbox{动量方程}\\ 
+    \frac{u_{1}^{2}}{2}+\frac{\gamma}{\gamma-1} \frac{p_{1}}{\rho_{1}}&=\frac{u_{2}^{2}}{2}+\frac{\gamma}{\gamma-1} \frac{p_{2}}{\rho_{2}}&\mbox{能量方程}
+\end{align*}
+
+给定$M_1(u_1)\ p_1\ \rho_1$，通过三个方程求解三个未知数$M_2(u_2)\ p_2\ \rho_2$。
+
+\subsection{正激波推导的另一种方法}
+
+动量式除以连续性式
+
+\begin{align*}
+    \frac{p_{1}}{\rho_{1} u_{1}}+u_{1}&=\frac{p_{2}}{\rho_{2} u_{2}}+u_{2}\\ 
+    u_{1}-u_{2}&=\frac{a_{2}^{2}}{\gamma u_{2}}-\frac{a_{1}^{2}}{\gamma u_{1}}
+\end{align*}
+
+由能量式
+
+\begin{equation*}
+    \frac{u^{2}}{2}+\frac{a^{2}}{\gamma-1}=K\mbox{（常数）}
+\end{equation*}
+
+设喉部达到声速$a^{*}$，则有
+
+\begin{align*}
+    K&=\frac{a^{* 2}}{2}+\frac{a^{*}}{\gamma-1}\\ 
+    &=\frac{1}{2} \frac{(\gamma+1)}{(\gamma-1)} a^{* 2}
+\end{align*}
+
+\begin{align*}
+\begin{array}{l}{a_{1}^{2}=\frac{1}{2}\left\{(\gamma+1) a^{* 2}-(\gamma-1) u_{1}^{2}\right\}} \\ {a_{2}^{2}=\frac{1}{2}\left\{(\gamma+1) a^{* 2}-(\gamma-1) u_{2}^{2}\right\}}\end{array}
+\end{align*}
+
+代回至速度差式，则有
+
+\begin{gather*}
+    u_{1}-u_{2}=\frac{(\gamma+1) a^{* 2}-(\gamma-1) u_{2}^{2}}{2 \gamma u_{2}}-\frac{(\gamma+1) a^{* 2}-(\gamma-1) u_{1}^{2}}{2 \gamma u_{1}}
+\end{gather*}
+
+化简可以得到
+
+\begin{equation*}
+    u_{1} u_{2}=a^{* 2}
+\end{equation*}
+
+定义$M_{1}^{*}=u_{1} / a^{*}$，$M_{2}^{*}=u_{2} / a^{*}$，可以得到
+
+\begin{equation*}
+    M_{1}^{*}=\frac{1}{M_{2}^{*}}
+\end{equation*}
+
+这就是Prandtl-Meyer关系。
+
+\subsection{$M$与$M^*$的关系}
+
+利用能量关系除以$u^2$，
+
+\begin{gather*}
+    M^{* 2}=\frac{(\gamma+1) M^{2}}{(\gamma-1) M^{2}+2}\\ 
+    M_{2}^{2}=\frac{\frac{\gamma-1}{2} M_{1}^{2}+1}{\gamma M_{1}^{2}-\frac{\gamma-1}{2}}
+\end{gather*}
+
+连续性方程
+
+\begin{align*}
+    \frac{\rho_2}{\rho_1}&=\frac{u_1}{u_2}=\frac{u_1^2}{u_1u_2}=\frac{M_1^{*2}a^{*2}}{M_1^*M_2^*a^{*2}}=M_1^{*2}\\ 
+    \frac{\rho_{2}}{\rho_{1}}&=\frac{(\gamma+1) M_{1}^{2}}{(\gamma-1) M_{1}^{2}+2}
+\end{align*}
+
+动量方程
+
+\begin{align*}
+    p_{2}-p_{1}&=\rho_{1} u_{1}\left(u_{1}-u_{2}\right)\\ 
+    \frac{p_{2}-p_{1}}{p_{1}}&=\gamma M_{1}^{2}\left(1-\frac{u_{2}}{u_{1}}\right)\\ 
+    \frac{p_{2}}{p_{1}}-1&=\frac{2 \gamma}{\gamma+1}\left(M_{1}^{2}-1\right)
+\end{align*}
+
+求解温度则可以利用
+
+\begin{equation*}
+    \frac{T_{2}}{T_{1}}=\frac{p_{2}}{p_{1}} \cdot \frac{\rho_{1}}{\rho_{2}}
+\end{equation*}
